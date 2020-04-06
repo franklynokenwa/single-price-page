@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgb(230, 239, 246);
+    
+}
+.main-container{
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    font-size: 16px;
+    justify-content: space-between;   
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    
+}
+.container-1{
+    max-width: 100%;
+    height: 50%;
+    background-color: white;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+    padding-left: 27px;
+    padding-top: 10px;
+    border-radius: 5px 5px 0 0;
+}
+h3{
+    color: rgb(59, 159, 159);
+    font-weight: 700;
+}
+#day{
+    color: hsl(71, 73%, 54%);
+}
+#gain{
+    color: rgb(192, 195, 202);
+}
+#dollar{
+    color: rgb(243, 255, 255);
+    font-weight: 700;
+    font-size: 22px;
+    top:-70px;
+
+}
+#per{
+    color: rgb(111, 212, 214);
+    font-size: 16px;
+}
+
+.container-2{
+    width: 100%;
+    height: 50%;
+    margin-top: 0;
+    display: flex;
+    
+
+}
+.monthly{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(43, 179, 177);
+    padding-bottom: 5%;
+    padding-left: 27px;
+    padding-top: 20px;
+    padding-right: 30px;
+    border-radius: 0 0 0 5px;
+      
+}
+.monthly h4{
+    color: rgb(231, 249, 246);
+    font-weight: 400;
+}
+.monthly p{
+    color: rgb(175, 250, 253);
+}
+
+button{
+    padding: 15px;
+    width: 95%;
+    color: rgb(243, 255, 178);
+    background-color:hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    transition: ease-in;
+    box-shadow: 0 1px 3px 0px rgb(12, 88, 87);
+}
+button:hover{
+    background-color: hsl(71, 98%, 51%);
+}
+
+.why-us{
+    max-width: 100%;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(74, 190, 189);
+    padding-left: 27px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 5%;
+    border-radius: 0 0 5px 0;
+}
+.why-us p{
+    color: rgb(133, 223, 222);
+}
+.why-us h4{
+    color:  rgb(225, 254, 254);
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+.attribution{
+    text-align: center;
+}
+@media(max-width:768px){
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container-1{
+        width: 100%;
+    }
+    .monthly{
+        width: 92.5%;
+        border-radius: 0;
+    }
+    .why-us{
+        width: 92.5%;
+    }
+}
+@media(max-width:480px){
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0;
+    }
+    .container-1{
+        width: 100%;
+    }
+    .monthly{
+        width: 88%;
+        height: 100%;
+    }
+    .why-us{
+        width: 89%;
+        height: 100%;
+    }
+}
+
+@media(max-width:375px){
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0;
+    }
+    .container-1{
+        width: 100%;
+    }
+    .monthly{
+        width: 84%;
+        height: 100%;
+    }
+    .why-us{
+        width: 84%;
+        height: 100%;
+    }
+}
+@media(max-width:320px){
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0;
+    }
+    .container-1{
+        width: 100%;
+    }
+    .monthly{
+        width: 82%;
+        height: 100%;
+    }
+    .why-us{
+        width: 82%;
+        height: 100%;
+
+    }
+}
+@media(max-height:760px){
+    .why-us{
+        height: 228px;
+        
+    }
+}
